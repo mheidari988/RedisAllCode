@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisPipelines", "RedisPipelines\RedisPipelines.csproj", "{C6F18268-005A-472F-A853-399AEFFF10F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures", "RedisDataStructures\RedisDataStructures.csproj", "{961BED0B-3720-4816-90A1-5FA22AA8EBD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.String", "RedisDataStructures.String\RedisDataStructures.String.csproj", "{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Lists", "RedisDataStructures.Lists\RedisDataStructures.Lists.csproj", "{84531D4A-C743-4C43-B52E-2F39C2387053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Sets", "RedisDataStructures.Sets\RedisDataStructures.Sets.csproj", "{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{C6F18268-005A-472F-A853-399AEFFF10F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F18268-005A-472F-A853-399AEFFF10F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F18268-005A-472F-A853-399AEFFF10F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{961BED0B-3720-4816-90A1-5FA22AA8EBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{961BED0B-3720-4816-90A1-5FA22AA8EBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{961BED0B-3720-4816-90A1-5FA22AA8EBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{961BED0B-3720-4816-90A1-5FA22AA8EBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84531D4A-C743-4C43-B52E-2F39C2387053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84531D4A-C743-4C43-B52E-2F39C2387053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84531D4A-C743-4C43-B52E-2F39C2387053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84531D4A-C743-4C43-B52E-2F39C2387053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
