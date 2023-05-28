@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Sets", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.SortedSets", "RedisDataStructures.SortedSets\RedisDataStructures.SortedSets.csproj", "{D74679B4-44F7-476F-881F-E190DC0574B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Hashes", "RedisDataStructures.Hashes\RedisDataStructures.Hashes.csproj", "{88D78065-D0A4-441C-979D-F7F759C0A1D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Hashes", "RedisDataStructures.Hashes\RedisDataStructures.Hashes.csproj", "{88D78065-D0A4-441C-979D-F7F759C0A1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Streams", "RedisDataStructures.Streams\RedisDataStructures.Streams.csproj", "{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{88D78065-D0A4-441C-979D-F7F759C0A1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D78065-D0A4-441C-979D-F7F759C0A1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D78065-D0A4-441C-979D-F7F759C0A1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
