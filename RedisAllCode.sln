@@ -21,7 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section2", "Section2", "{44
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Scripts", "RedisDataStructures.Scripts\RedisDataStructures.Scripts.csproj", "{6828BF42-0EAA-4578-865C-8A9DB1856BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Transactions", "RedisDataStructures.Transactions\RedisDataStructures.Transactions.csproj", "{7E86306A-B4E4-41A6-B927-ED8F68C76E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Transactions", "RedisDataStructures.Transactions\RedisDataStructures.Transactions.csproj", "{7E86306A-B4E4-41A6-B927-ED8F68C76E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.PubSub", "RedisDataStructures.PubSub\RedisDataStructures.PubSub.csproj", "{89B4BE9A-1398-4BFA-A754-65B48C627AB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{7E86306A-B4E4-41A6-B927-ED8F68C76E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E86306A-B4E4-41A6-B927-ED8F68C76E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E86306A-B4E4-41A6-B927-ED8F68C76E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B4BE9A-1398-4BFA-A754-65B48C627AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B4BE9A-1398-4BFA-A754-65B48C627AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B4BE9A-1398-4BFA-A754-65B48C627AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B4BE9A-1398-4BFA-A754-65B48C627AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 		{6828BF42-0EAA-4578-865C-8A9DB1856BEA} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 		{7E86306A-B4E4-41A6-B927-ED8F68C76E2E} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{89B4BE9A-1398-4BFA-A754-65B48C627AB1} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {916A6FDF-8EB5-4ADC-A182-617611ABEF64}
