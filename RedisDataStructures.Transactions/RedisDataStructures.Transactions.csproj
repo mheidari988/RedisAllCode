@@ -7,8 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="stackexchange.redis" Version="2.6.111" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="stackexchange.redis" Version="2.6.111" />
+  </ItemGroup>
 
 </Project>
