@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.SortedS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Hashes", "RedisDataStructures.Hashes\RedisDataStructures.Hashes.csproj", "{88D78065-D0A4-441C-979D-F7F759C0A1D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Streams", "RedisDataStructures.Streams\RedisDataStructures.Streams.csproj", "{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.Streams", "RedisDataStructures.Streams\RedisDataStructures.Streams.csproj", "{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section2", "Section2", "{4417EDC6-A37B-4477-A673-CD8112E75A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDataStructures.Scripts", "RedisDataStructures.Scripts\RedisDataStructures.Scripts.csproj", "{6828BF42-0EAA-4578-865C-8A9DB1856BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +55,23 @@ Global
 		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6828BF42-0EAA-4578-865C-8A9DB1856BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6828BF42-0EAA-4578-865C-8A9DB1856BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6828BF42-0EAA-4578-865C-8A9DB1856BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6828BF42-0EAA-4578-865C-8A9DB1856BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6F18268-005A-472F-A853-399AEFFF10F7} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{CF37CF5D-A1FC-4C4C-A15B-8AF7737ABAF3} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{84531D4A-C743-4C43-B52E-2F39C2387053} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{45E82B11-6516-4AE4-88E3-8ABAE72B4EC6} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{D74679B4-44F7-476F-881F-E190DC0574B3} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{88D78065-D0A4-441C-979D-F7F759C0A1D4} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{F492AFAC-C00A-45CF-8D4E-7DE2FD4BDC0B} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
+		{6828BF42-0EAA-4578-865C-8A9DB1856BEA} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {916A6FDF-8EB5-4ADC-A182-617611ABEF64}
