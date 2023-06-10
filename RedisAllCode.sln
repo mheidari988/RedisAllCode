@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDataStructures.PubSub"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section3", "Section3", "{7751F617-7E65-4E7C-838B-9CC52B06DA6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAspNetCore.Caching", "RedisAspNetCore.Caching\RedisAspNetCore.Caching.csproj", "{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisAspNetCore.Caching", "RedisAspNetCore.Caching\RedisAspNetCore.Caching.csproj", "{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisAspNetCore.Sessions", "RedisAspNetCore.Sessions\RedisAspNetCore.Sessions.csproj", "{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{7E86306A-B4E4-41A6-B927-ED8F68C76E2E} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 		{89B4BE9A-1398-4BFA-A754-65B48C627AB1} = {4417EDC6-A37B-4477-A673-CD8112E75A18}
 		{17C0C6D6-5FA0-4822-AAFF-1E5E1EB0E380} = {7751F617-7E65-4E7C-838B-9CC52B06DA6B}
+		{1EC10DE9-CA5B-4B44-8522-36E660F9EF2B} = {7751F617-7E65-4E7C-838B-9CC52B06DA6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {916A6FDF-8EB5-4ADC-A182-617611ABEF64}
